@@ -49,9 +49,9 @@ const FeaturesSplit = ({
 	);
 
 	const sectionHeader = {
-		title: 'Services',
+		title: 'WHY VIRTUAL STAFFING',
 		paragraph:
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.',
+			'',
 	};
 
 	return (
@@ -69,15 +69,23 @@ const FeaturesSplit = ({
 								className="split-item-content center-content-mobile reveal-from-left"
 								data-reveal-container=".split-item"
 							>
-								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									Lightning fast workflow
-								</div>
-								<h3 className="mt-0 mb-12">Data-driven insights</h3>
+								
+								<h3 className="mt-0 mb-12">Are you having these challenges?</h3>
 								<p className="m-0">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua
-									— Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.
+								<ul>
+									<li>
+										Sourcing the right TALENT?
+									</li>
+									<li>
+										Starting or Scaling due to COSTS?
+									</li>
+									<li>
+										MANAGING some functions that may not be core to your business?
+									</li>
+									<li>
+										SPACE has been costly/restrictive?
+									</li>
+								</ul>
 								</p>
 							</div>
 							<div
@@ -95,69 +103,45 @@ const FeaturesSplit = ({
 								/>
 							</div>
 						</div>
-
 						<div className="split-item">
-							<div
-								className="split-item-content center-content-mobile reveal-from-right"
-								data-reveal-container=".split-item"
-							>
-								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									Lightning fast workflow
-								</div>
-								<h3 className="mt-0 mb-12">Data-driven insights</h3>
-								<p className="m-0">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua
-									— Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.
-								</p>
-							</div>
-							<div
-								className={classNames(
-									'split-item-image center-content-mobile reveal-from-bottom',
-									imageFill && 'split-item-image-fill'
-								)}
-								data-reveal-container=".split-item"
-							>
-								<Image
-									src={require('./../../assets/images/features-split-image-02.jpg')}
-									alt="Features split 02"
-									width={528}
-									height={396}
-								/>
-							</div>
+						<div
+							className={classNames(
+								'split-item-image center-content-mobile reveal-from-bottom',
+								imageFill && 'split-item-image-fill'
+							)}
+							data-reveal-container=".split-item"
+						>
+							<Image
+								src={require('./../../assets/images/features-split-image-01.jpg')}
+								alt="Features split 01"
+								width={528}
+								height={396}
+							/>
 						</div>
-
-						<div className="split-item">
 							<div
 								className="split-item-content center-content-mobile reveal-from-left"
 								data-reveal-container=".split-item"
 							>
-								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									Lightning fast workflow
-								</div>
-								<h3 className="mt-0 mb-12">Data-driven insights</h3>
+								
+								<h3 className="mt-0 mb-12">The Philippines</h3>
 								<p className="m-0">
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-									do eiusmod tempor incididunt ut labore et dolore magna aliqua
-									— Ut enim ad minim veniam, quis nostrud exercitation ullamco
-									laboris nisi ut aliquip ex ea commodo consequat.
+								<ul>
+									<li>
+										600,000 ++ college graduates annually.
+									</li>
+									<li>
+										14 Million Filipinos speak English.
+									</li>
+									<li>
+										1.3 Million professionals in the Outsourcing industry.
+									</li>
+									<li>
+										Abundance of workspaces.
+									</li>
+								</ul>
 								</p>
 							</div>
-							<div
-								className={classNames(
-									'split-item-image center-content-mobile reveal-from-bottom',
-									imageFill && 'split-item-image-fill'
-								)}
-								data-reveal-container=".split-item"
-							>
-								<Image
-									src={require('./../../assets/images/features-split-image-03.jpg')}
-									alt="Features split 03"
-									width={528}
-									height={396}
-								/>
-							</div>
+	
 						</div>
 					</div>
 				</div>
