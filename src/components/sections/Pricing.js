@@ -41,9 +41,9 @@ const Pricing = ({
 	const tilesClasses = classNames('tiles-wrap', pushLeft && 'push-left');
 
 	const sectionHeader = {
-		title: 'Our Pricing',
+		title: 'Pricing',
 		paragraph:
-			'Vitae aliquet nec ullamcorper sit amet risus nullam eget felis semper quis lectus nulla at volutpat diam ut venenatis tellus—in ornare.',
+			'',
 	};
 
 	return (
@@ -62,11 +62,10 @@ const Pricing = ({
 						>
 							<div className="tiles-item-inner">
 								<div className="center-content">
-									<h5 className="mt-0 mb-12">Basic</h5>
-									<h3 className="mt-0 mb-12">$300.90</h3>
-									<p className="text-sm mb-0">BILLING PER MONTH</p>
-									<p className="text-sm mb-0">Bandwidth: 1GB</p>
-									<p className="text-sm mb-0">No Hidden Fees</p>
+									<h5 className="mt-0 mb-0">Back-office (non-technical)</h5>
+									<p className="text-sm mb-12">Data entry, product listers</p>			
+									<h3 className="mt-0 mb-12">$1,144.00/month ($6.50/hr)</h3>							
+														
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
@@ -82,11 +81,10 @@ const Pricing = ({
 						>
 							<div className="tiles-item-inner">
 								<div className="center-content">
-									<h5 className="mt-0 mb-12">Advance</h5>
-									<h3 className="mt-0 mb-12">$800.90</h3>
-									<p className="text-sm mb-0">BILLING PER MONTH</p>
-									<p className="text-sm mb-0">Bandwidth: 1GB</p>
-									<p className="text-sm mb-0">No Hidden Fees</p>
+									<h5 className="mt-0 mb-0">Back-office (technical)</h5>
+									<p className="text-sm mb-12">Medical Billing, Accounting, eCommerce specialists, Graphic Artists</p>			
+									<h3 className="mt-0 mb-12">$1,450.00/month ($8.25/hr)</h3>							
+														
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
@@ -102,11 +100,10 @@ const Pricing = ({
 						>
 							<div className="tiles-item-inner">
 								<div className="center-content">
-									<h5 className="mt-0 mb-12">Expert</h5>
-									<h3 className="mt-0 mb-12">$1500.90</h3>
-									<p className="text-sm mb-0">BILLING PER MONTH</p>
-									<p className="text-sm mb-0">Bandwidth: 1GB</p>
-									<p className="text-sm mb-0">No Hidden Fees</p>
+									<h5 className="mt-0 mb-0">Customer Service (voice, email or chat)</h5>
+									<p className="text-sm mb-12">Appointment setting, In-bound calls, Travel Reservations</p>			
+									<h3 className="mt-0 mb-12">$1,450.00/month ($8.25/hr)</h3>							
+														
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
@@ -115,8 +112,47 @@ const Pricing = ({
 								</div>
 							</div>
 						</div>
+						<div
+						className="tiles-item reveal-from-right"
+						data-reveal-delay="200"
+						>
+							<div className="tiles-item-inner">
+								<div className="center-content">
+									<h5 className="mt-0 mb-0">Customer Service (voice, IT or Engineering Technical)</h5>
+									<p className="text-sm mb-12">Technical Support</p>			
+									<h3 className="mt-0 mb-12">$1,600.00/month ($9.10/hr)</h3>							
+														
+								</div>
+								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
+									<Button tag="a" color="primary" wideMobile href="#">
+										Get started
+									</Button>
+								</div>
+							</div>
+						</div>
+						<div
+						className="tiles-item reveal-from-right"
+						data-reveal-delay="200"
+						>
+							<div className="tiles-item-inner">
+								<div className="center-content">
+									<h5 className="mt-0 mb-0">Other technical positions</h5>
+									<p className="text-sm mb-12">Draftsmen, programmer</p>			
+									<h3 className="mt-0 mb-12">Starts at $2,000</h3>							
+														
+								</div>
+								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
+									<Button tag="a" color="primary" wideMobile href="#">
+										Get started
+									</Button>
+								</div>
+							</div>
+						</div>
+						
 					</div>
+					<h5 className="mt-10 mb-0">Pricing is subject to change without prior notice. These are estimates to guide decision making. Includes all facilities needed to operate (workstation, fiber internet connection, salaries and benefits, administrative services.)</h5>
 				</div>
+				
 			</div>
 		</section>
 	);

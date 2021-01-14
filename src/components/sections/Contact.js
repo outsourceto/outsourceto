@@ -69,17 +69,14 @@ const Contact = ({
 								data-reveal-container=".split-item"
 							>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									Office Address:
+									Email:
 								</div>
-								<p className="mb-32">4461 Cedar Street Moro, AR 72368</p>
+								<p className="mb-0">TalentAcquire@outsourceto.us</p>
+								<p className="mb-32">Admin@outsourceto.us</p>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									Telephones:
+									Skype:
 								</div>
-								<p className="mb-32">+63932 456 3218 +63921 568 8456</p>
-								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
-									Working Hours:
-								</div>
-								<p className="mb-32">9:00AM To 6:00PM</p>
+								<p className="mb-32">LPATLDS</p>
 							</div>
 							<div
 								className={classNames(

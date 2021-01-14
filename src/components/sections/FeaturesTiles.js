@@ -45,7 +45,13 @@ const FeaturesTiles = ({
 	const sectionHeader = {
 		title: 'Possible Industries & Functions',
 		paragraph:
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum — semper quis lectus nulla at volutpat diam ut venenatis.',
+			'Sample Industries',
+	};
+
+	const sectionHeader2 = {
+		title: '',
+		paragraph:
+			'Functions',
 	};
 
 	return (
@@ -67,7 +73,7 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Robust Workflow</h4>
+									<h4 className="mt-0 mb-8">eCommerce</h4>
 									<p className="m-0 text-sm">
 										Duis aute irure dolor in reprehenderit in voluptate velit
 										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -93,11 +99,9 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Robust Workflow</h4>
+									<h4 className="mt-0 mb-8">Professional services</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+										Insurance agents, coaches, lawyers
 									</p>
 								</div>
 							</div>
@@ -119,7 +123,7 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Robust Workflow</h4>
+									<h4 className="mt-0 mb-8">Insurance</h4>
 									<p className="m-0 text-sm">
 										Duis aute irure dolor in reprehenderit in voluptate velit
 										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -142,7 +146,7 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Robust Workflow</h4>
+									<h4 className="mt-0 mb-8">Medical Billing</h4>
 									<p className="m-0 text-sm">
 										Duis aute irure dolor in reprehenderit in voluptate velit
 										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -168,7 +172,7 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Robust Workflow</h4>
+									<h4 className="mt-0 mb-8">Travel</h4>
 									<p className="m-0 text-sm">
 										Duis aute irure dolor in reprehenderit in voluptate velit
 										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -194,7 +198,7 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Robust Workflow</h4>
+									<h4 className="mt-0 mb-8">Architectural Services</h4>
 									<p className="m-0 text-sm">
 										Duis aute irure dolor in reprehenderit in voluptate velit
 										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
@@ -203,6 +207,370 @@ const FeaturesTiles = ({
 								</div>
 							</div>
 						</div>
+					</div>
+				</div>
+				<div className={innerClasses}>
+					<SectionHeader data={sectionHeader2} className="center-content" />
+					<div className={tilesClasses}>
+						<div className="tiles-item reveal-from-bottom">
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-01.svg')}
+											alt="Features tile icon 01"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Product Listing</h4>
+									<p className="m-0 text-sm">
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+							className="tiles-item reveal-from-bottom"
+							data-reveal-delay="200"
+						>
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-02.svg')}
+											alt="Features tile icon 02"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Web Development & Design</h4>
+									<p className="m-0 text-sm">
+										Insurance agents, coaches, lawyers
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+							className="tiles-item reveal-from-bottom"
+							data-reveal-delay="400"
+						>
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-03.svg')}
+											alt="Features tile icon 03"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Search Engine Optimization</h4>
+									<p className="m-0 text-sm">
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div className="tiles-item reveal-from-bottom">
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-04.svg')}
+											alt="Features tile icon 04"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Social Media Management</h4>
+									<p className="m-0 text-sm">
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+							className="tiles-item reveal-from-bottom"
+							data-reveal-delay="200"
+						>
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-05.svg')}
+											alt="Features tile icon 05"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Customer Service - caht, email and calls</h4>
+									<p className="m-0 text-sm">
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+							className="tiles-item reveal-from-bottom"
+							data-reveal-delay="400"
+						>
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-06.svg')}
+											alt="Features tile icon 06"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Lead Generation</h4>
+									<p className="m-0 text-sm">
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+						className="tiles-item reveal-from-bottom"
+						data-reveal-delay="400"
+					>
+						<div className="tiles-item-inner">
+							<div className="features-tiles-item-header">
+								<div className="features-tiles-item-image mb-16">
+									<Image
+										src={require('./../../assets/images/feature-tile-icon-06.svg')}
+										alt="Features tile icon 06"
+										width={64}
+										height={64}
+									/>
+								</div>
+							</div>
+							<div className="features-tiles-item-content">
+								<h4 className="mt-0 mb-8">Appointment Setting</h4>
+								<p className="m-0 text-sm">
+									Duis aute irure dolor in reprehenderit in voluptate velit
+									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+									occaecat cupidatat.
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div
+					className="tiles-item reveal-from-bottom"
+					data-reveal-delay="400"
+				>
+					<div className="tiles-item-inner">
+						<div className="features-tiles-item-header">
+							<div className="features-tiles-item-image mb-16">
+								<Image
+									src={require('./../../assets/images/feature-tile-icon-06.svg')}
+									alt="Features tile icon 06"
+									width={64}
+									height={64}
+								/>
+							</div>
+						</div>
+						<div className="features-tiles-item-content">
+							<h4 className="mt-0 mb-8">Reservation Services</h4>
+							<p className="m-0 text-sm">
+								Duis aute irure dolor in reprehenderit in voluptate velit
+								esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+								occaecat cupidatat.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div
+				className="tiles-item reveal-from-bottom"
+				data-reveal-delay="400"
+			>
+				<div className="tiles-item-inner">
+					<div className="features-tiles-item-header">
+						<div className="features-tiles-item-image mb-16">
+							<Image
+								src={require('./../../assets/images/feature-tile-icon-06.svg')}
+								alt="Features tile icon 06"
+								width={64}
+								height={64}
+							/>
+						</div>
+					</div>
+					<div className="features-tiles-item-content">
+						<h4 className="mt-0 mb-8">Insurance Policy Management, Renewal Monitoring</h4>
+						<p className="m-0 text-sm">
+							Duis aute irure dolor in reprehenderit in voluptate velit
+							esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+							occaecat cupidatat.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<div
+			className="tiles-item reveal-from-bottom"
+			data-reveal-delay="400"
+		>
+			<div className="tiles-item-inner">
+				<div className="features-tiles-item-header">
+					<div className="features-tiles-item-image mb-16">
+						<Image
+							src={require('./../../assets/images/feature-tile-icon-06.svg')}
+							alt="Features tile icon 06"
+							width={64}
+							height={64}
+						/>
+					</div>
+				</div>
+				<div className="features-tiles-item-content">
+					<h4 className="mt-0 mb-8">Technician Appointment Coordination</h4>
+					<p className="m-0 text-sm">
+						Duis aute irure dolor in reprehenderit in voluptate velit
+						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+						occaecat cupidatat.
+					</p>
+				</div>
+			</div>
+		</div>
+
+		<div
+		className="tiles-item reveal-from-bottom"
+		data-reveal-delay="400"
+		>
+			<div className="tiles-item-inner">
+				<div className="features-tiles-item-header">
+					<div className="features-tiles-item-image mb-16">
+						<Image
+							src={require('./../../assets/images/feature-tile-icon-06.svg')}
+							alt="Features tile icon 06"
+							width={64}
+							height={64}
+						/>
+					</div>
+				</div>
+				<div className="features-tiles-item-content">
+					<h4 className="mt-0 mb-8">Draftsmen and Animators</h4>
+					<p className="m-0 text-sm">
+						Duis aute irure dolor in reprehenderit in voluptate velit
+						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+						occaecat cupidatat.
+					</p>
+				</div>
+			</div>
+		</div>
+
+							<div
+							className="tiles-item reveal-from-bottom"
+							data-reveal-delay="400"
+							>
+							<div className="tiles-item-inner">
+								<div className="features-tiles-item-header">
+									<div className="features-tiles-item-image mb-16">
+										<Image
+											src={require('./../../assets/images/feature-tile-icon-06.svg')}
+											alt="Features tile icon 06"
+											width={64}
+											height={64}
+										/>
+									</div>
+								</div>
+								<div className="features-tiles-item-content">
+									<h4 className="mt-0 mb-8">Graphic Design</h4>
+									<p className="m-0 text-sm">
+										Duis aute irure dolor in reprehenderit in voluptate velit
+										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+										occaecat cupidatat.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<div
+						className="tiles-item reveal-from-bottom"
+						data-reveal-delay="400"
+						>
+						<div className="tiles-item-inner">
+							<div className="features-tiles-item-header">
+								<div className="features-tiles-item-image mb-16">
+									<Image
+										src={require('./../../assets/images/feature-tile-icon-06.svg')}
+										alt="Features tile icon 06"
+										width={64}
+										height={64}
+									/>
+								</div>
+							</div>
+							<div className="features-tiles-item-content">
+								<h4 className="mt-0 mb-8">Order Taking & Management</h4>
+								<p className="m-0 text-sm">
+									Duis aute irure dolor in reprehenderit in voluptate velit
+									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+									occaecat cupidatat.
+								</p>
+							</div>
+						</div>
+						</div>
+
+						<div
+						className="tiles-item reveal-from-bottom"
+						data-reveal-delay="400"
+						>
+						<div className="tiles-item-inner">
+							<div className="features-tiles-item-header">
+								<div className="features-tiles-item-image mb-16">
+									<Image
+										src={require('./../../assets/images/feature-tile-icon-06.svg')}
+										alt="Features tile icon 06"
+										width={64}
+										height={64}
+									/>
+								</div>
+							</div>
+							<div className="features-tiles-item-content">
+								<h4 className="mt-0 mb-8">General Administrative Work</h4>
+								<p className="m-0 text-sm">
+									Duis aute irure dolor in reprehenderit in voluptate velit
+									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+									occaecat cupidatat.
+								</p>
+							</div>
+						</div>
+						</div>
+
+		
+
+		
 					</div>
 				</div>
 			</div>

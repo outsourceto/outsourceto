@@ -114,17 +114,17 @@ const Header = ({
 									>
 										<li>
 											<Link to="/" onClick={closeMenu}>
-												Home
+												Integrity
 											</Link>
 										</li>
 										<li>
 											<AnchorLink href="#services" onClick={closeMenu}>
-												Services
+												People
 											</AnchorLink>
 										</li>
 										<li>
 											<AnchorLink href="#testimonials" onClick={closeMenu}>
-												Testimonials
+												Service
 											</AnchorLink>
 										</li>
 										<li>
