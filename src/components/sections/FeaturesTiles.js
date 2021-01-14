@@ -45,20 +45,20 @@ const FeaturesTiles = ({
 	const sectionHeader = {
 		title: 'Possible Industries & Functions',
 		paragraph:
-			'Sample Industries',
+			'',
 	};
 
 	const sectionHeader2 = {
 		title: '',
 		paragraph:
-			'Functions',
+			'',
 	};
 
 	return (
 		<section {...props} className={outerClasses}>
 			<div className="container">
 				<div className={innerClasses}>
-					<SectionHeader data={sectionHeader} className="center-content" />
+					<SectionHeader id="industries" data={sectionHeader} className="center-content" />
 					<div className={tilesClasses}>
 						<div className="tiles-item reveal-from-bottom">
 							<div className="tiles-item-inner">
@@ -75,9 +75,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">eCommerce</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -101,7 +99,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Professional services</h4>
 									<p className="m-0 text-sm">
-										Insurance agents, coaches, lawyers
+									
 									</p>
 								</div>
 							</div>
@@ -125,9 +123,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Insurance</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -148,9 +144,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Medical Billing</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -174,9 +168,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Travel</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -200,9 +192,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Architectural Services</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -227,9 +217,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Product Listing</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -253,7 +241,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Web Development & Design</h4>
 									<p className="m-0 text-sm">
-										Insurance agents, coaches, lawyers
+										
 									</p>
 								</div>
 							</div>
@@ -277,9 +265,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Search Engine Optimization</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -300,9 +286,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Social Media Management</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -326,9 +310,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Customer Service - caht, email and calls</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -352,9 +334,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Lead Generation</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -378,9 +358,7 @@ const FeaturesTiles = ({
 							<div className="features-tiles-item-content">
 								<h4 className="mt-0 mb-8">Appointment Setting</h4>
 								<p className="m-0 text-sm">
-									Duis aute irure dolor in reprehenderit in voluptate velit
-									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-									occaecat cupidatat.
+								
 								</p>
 							</div>
 						</div>
@@ -404,9 +382,7 @@ const FeaturesTiles = ({
 						<div className="features-tiles-item-content">
 							<h4 className="mt-0 mb-8">Reservation Services</h4>
 							<p className="m-0 text-sm">
-								Duis aute irure dolor in reprehenderit in voluptate velit
-								esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-								occaecat cupidatat.
+							
 							</p>
 						</div>
 					</div>
@@ -430,9 +406,7 @@ const FeaturesTiles = ({
 					<div className="features-tiles-item-content">
 						<h4 className="mt-0 mb-8">Insurance Policy Management, Renewal Monitoring</h4>
 						<p className="m-0 text-sm">
-							Duis aute irure dolor in reprehenderit in voluptate velit
-							esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat.
+							
 						</p>
 					</div>
 				</div>
@@ -456,9 +430,7 @@ const FeaturesTiles = ({
 				<div className="features-tiles-item-content">
 					<h4 className="mt-0 mb-8">Technician Appointment Coordination</h4>
 					<p className="m-0 text-sm">
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-						occaecat cupidatat.
+					
 					</p>
 				</div>
 			</div>
@@ -482,9 +454,7 @@ const FeaturesTiles = ({
 				<div className="features-tiles-item-content">
 					<h4 className="mt-0 mb-8">Draftsmen and Animators</h4>
 					<p className="m-0 text-sm">
-						Duis aute irure dolor in reprehenderit in voluptate velit
-						esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-						occaecat cupidatat.
+					
 					</p>
 				</div>
 			</div>
@@ -508,9 +478,7 @@ const FeaturesTiles = ({
 								<div className="features-tiles-item-content">
 									<h4 className="mt-0 mb-8">Graphic Design</h4>
 									<p className="m-0 text-sm">
-										Duis aute irure dolor in reprehenderit in voluptate velit
-										esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-										occaecat cupidatat.
+									
 									</p>
 								</div>
 							</div>
@@ -534,9 +502,7 @@ const FeaturesTiles = ({
 							<div className="features-tiles-item-content">
 								<h4 className="mt-0 mb-8">Order Taking & Management</h4>
 								<p className="m-0 text-sm">
-									Duis aute irure dolor in reprehenderit in voluptate velit
-									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-									occaecat cupidatat.
+								
 								</p>
 							</div>
 						</div>
@@ -560,9 +526,7 @@ const FeaturesTiles = ({
 							<div className="features-tiles-item-content">
 								<h4 className="mt-0 mb-8">General Administrative Work</h4>
 								<p className="m-0 text-sm">
-									Duis aute irure dolor in reprehenderit in voluptate velit
-									esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-									occaecat cupidatat.
+								
 								</p>
 							</div>
 						</div>

@@ -19,16 +19,22 @@ const FooterNav = ({
     >
       <ul className="list-reset">
         <li>
-          <Link to="#0">Contact</Link>
+          <Link to="#0">Industries and Functions</Link>
         </li>
         <li>
-          <Link to="#0">About us</Link>
+          <Link to="#0">Why Virtual Staffing</Link>
         </li>
         <li>
-          <Link to="#0">FAQ's</Link>
+          <Link to="#0">About</Link>
         </li>
         <li>
-          <Link to="#0">Support</Link>
+          <Link to="#0">7-Step</Link>
+        </li>
+        <li>
+          <Link to="#0">Pricing</Link>
+        </li>
+        <li>
+          <Link to="#0">Contact Us</Link>
         </li>
       </ul>
     </nav>

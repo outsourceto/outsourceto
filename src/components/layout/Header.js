@@ -113,18 +113,23 @@ const Header = ({
 										)}
 									>
 										<li>
-											<Link to="/" onClick={closeMenu}>
-												Integrity
-											</Link>
-										</li>
-										<li>
-											<AnchorLink href="#services" onClick={closeMenu}>
-												People
+											<AnchorLink href="#industries" onClick={closeMenu}>
+												Industries and Functions
 											</AnchorLink>
 										</li>
 										<li>
-											<AnchorLink href="#testimonials" onClick={closeMenu}>
-												Service
+											<AnchorLink href="#why" onClick={closeMenu}>
+												Why Virtual Staffing
+											</AnchorLink>
+										</li>
+										<li>
+											<AnchorLink href="#about" onClick={closeMenu}>
+												About
+											</AnchorLink>
+										</li>
+										<li>
+											<AnchorLink href="#step" onClick={closeMenu}>
+												7-step
 											</AnchorLink>
 										</li>
 										<li>
@@ -133,13 +138,8 @@ const Header = ({
 											</AnchorLink>
 										</li>
 										<li>
-											<AnchorLink href="#team" onClick={closeMenu}>
-												Team
-											</AnchorLink>
-										</li>
-										<li>
 											<AnchorLink href="#contact" onClick={closeMenu}>
-												Contact
+												Contact Us
 											</AnchorLink>
 										</li>
 									</ul>

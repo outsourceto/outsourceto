@@ -34,7 +34,7 @@ const Pricing = ({
 
 	const innerClasses = classNames(
 		'testimonial-inner section-inner',
-		topDivider && 'has-top-divider',
+		topDivider && '',
 		bottomDivider && 'has-bottom-divider'
 	);
 

@@ -59,7 +59,7 @@ const FeaturesSplit = ({
 			<div className="container">
 				<div className={innerClasses}>
 					<SectionHeader
-						id="services"
+						id="why"
 						data={sectionHeader}
 						className="center-content"
 					/>
@@ -96,7 +96,7 @@ const FeaturesSplit = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require('./../../assets/images/features-split-image-01.jpg')}
+									src={require('./../../assets/images/challenges.jpg')}
 									alt="Features split 01"
 									width={528}
 									height={396}
@@ -112,7 +112,7 @@ const FeaturesSplit = ({
 							data-reveal-container=".split-item"
 						>
 							<Image
-								src={require('./../../assets/images/features-split-image-01.jpg')}
+								src={require('./../../assets/images/phil2.jpg')}
 								alt="Features split 01"
 								width={528}
 								height={396}

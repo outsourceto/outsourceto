@@ -35,8 +35,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
 						<Logo />
 						<FooterSocial />
 					</div>
-					<div className="footer-bottom space-between text-xxs invert-order-desktop">
-						<FooterNav />
+					<div className="footer-bottom space-between text-xxs">						
 						<div className="footer-copyright">
 							<a href="#">OutSourceTo</a> - All right reserved
 						</div>

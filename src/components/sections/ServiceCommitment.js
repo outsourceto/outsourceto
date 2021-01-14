@@ -49,7 +49,7 @@ const ServiceCommitment = ({
 	);
 
 	const sectionHeader = {
-		title: 'WHY VIRTUAL STAFFING',
+		title: '',
 		paragraph:
 			'',
 	};
@@ -102,7 +102,7 @@ const ServiceCommitment = ({
 								data-reveal-container=".split-item"
 							>
 								<Image
-									src={require('./../../assets/images/features-split-image-01.jpg')}
+									src={require('./../../assets/images/service.jpg')}
 									alt="Features split 01"
 									width={528}
 									height={396}
@@ -118,7 +118,7 @@ const ServiceCommitment = ({
 							data-reveal-container=".split-item"
 						>
 							<Image
-								src={require('./../../assets/images/features-split-image-01.jpg')}
+								src={require('./../../assets/images/price.jpg')}
 								alt="Features split 01"
 								width={528}
 								height={396}
@@ -197,7 +197,7 @@ const ServiceCommitment = ({
 							data-reveal-container=".split-item"
 						>
 							<Image
-								src={require('./../../assets/images/features-split-image-01.jpg')}
+								src={require('./../../assets/images/workforce.jpg')}
 								alt="Features split 01"
 								width={528}
 								height={396}
@@ -214,7 +214,7 @@ const ServiceCommitment = ({
 						data-reveal-container=".split-item"
 					>
 						<Image
-							src={require('./../../assets/images/features-split-image-01.jpg')}
+							src={require('./../../assets/images/people.jpg')}
 							alt="Features split 01"
 							width={528}
 							height={396}
