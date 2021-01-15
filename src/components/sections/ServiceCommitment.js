@@ -68,8 +68,7 @@ const ServiceCommitment = ({
 							<div
 								className="split-item-content center-content-mobile reveal-from-left"
 								data-reveal-container=".split-item"
-							>
-								
+							>								
 								<h3 className="mt-0 mb-12">Our Service Commitment</h3>
 								<p className="m-0">
 								<ul>

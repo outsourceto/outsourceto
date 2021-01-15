@@ -8,8 +8,14 @@ const Logo = ({ className, ...props }) => {
 
 	return (
 		<div {...props} className={classes}>
-			<h2 className="m-0">
-				<Link to="/">OutsourceTo</Link>
+			<h2 className="m-5">
+				<Link to="/">
+				<Image
+				src={require('./../../../assets/images/logo-outsourceto.png')}
+				alt="logo"
+				width={300}
+				height={82}
+			/></Link>
 			</h2>
 		</div>
 	);
