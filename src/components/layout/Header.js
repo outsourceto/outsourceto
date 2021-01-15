@@ -113,34 +113,38 @@ const Header = ({
 										)}
 									>
 										<li>
-											<AnchorLink href="#industries" onClick={closeMenu}>
+											<Link to={'/industries-and-functions'} >
 												Industries and Functions
-											</AnchorLink>
+											</Link>
+											
 										</li>
 										<li>
-											<AnchorLink href="#why" onClick={closeMenu}>
-												Why Virtual Staffing
-											</AnchorLink>
+											<Link to={'/why-virtual-staffing'} >
+											Why Virtual Staffing
+											</Link>
+											
 										</li>
 										<li>
-											<AnchorLink href="#about" onClick={closeMenu}>
+											<Link to={'/about'} >
 												About
-											</AnchorLink>
+											</Link>
 										</li>
 										<li>
-											<AnchorLink href="#step" onClick={closeMenu}>
+											<Link to={'/7-step'} >
 												7-step
-											</AnchorLink>
+											</Link>
+											
 										</li>
 										<li>
-											<AnchorLink href="#pricing" onClick={closeMenu}>
+											<Link to={'/pricing'} >
 												Pricing
-											</AnchorLink>
+											</Link>
+											
 										</li>
 										<li>
-											<AnchorLink href="#contact" onClick={closeMenu}>
+											<Link to={'/contact'} >
 												Contact Us
-											</AnchorLink>
+											</Link>											
 										</li>
 									</ul>
 								</div>

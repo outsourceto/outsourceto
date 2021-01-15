@@ -9,6 +9,13 @@ import LayoutDefault from './layouts/LayoutDefault';
 
 // Views 
 import Home from './views/Home';
+import About from './components/sections/About';
+import FeaturesTiles from './components/sections/FeaturesTiles';
+import FeaturesSplit from './components/sections/FeaturesSplit';
+import ServiceCommitment from './components/sections/ServiceCommitment';
+import OnBoarding from './components/sections/OnBoarding';
+import Pricing from './components/sections/Pricing';
+import Contact from './components/sections/Contact';
 
 // Initialize Google Analytics
 ReactGA.initialize(process.env.REACT_APP_GA_CODE);
@@ -37,6 +44,12 @@ const App = () => {
       children={() => (
         <Switch>
           <AppRoute exact path="/" component={Home} layout={LayoutDefault} />
+          <AppRoute exact path="/industries-and-functions" component={FeaturesTiles} layout={LayoutDefault} />
+          <AppRoute exact path="/why-virtual-staffing" component={FeaturesSplit} layout={LayoutDefault} />
+          <AppRoute exact path="/about" component={About} layout={LayoutDefault} />
+          <AppRoute exact path="/7-step" component={OnBoarding} layout={LayoutDefault} />
+          <AppRoute exact path="/pricing" component={Pricing} layout={LayoutDefault} />
+          <AppRoute exact path="/contact" component={Contact} layout={LayoutDefault} />
         </Switch>
       )} />
   );

@@ -19,23 +19,7 @@ const Home = () => {
 		<>
 			<ScrollUpButton />
 			<Hero className="illustration-section-01" />
-			<FeaturesTiles />
-			<FeaturesSplit
-				invertMobile
-				topDivider
-				imageFill
-				className="illustration-section-02"
-			/>			
-			<ServiceCommitment
-				invertMobile
-				topDivider
-				imageFill
-				className="illustration-section-02"
-			/>
-			<About />
-			<OnBoarding />			
-			<Pricing topDivider />			
-			<Contact topDivider />
+			
 		</>
 	);
 };
