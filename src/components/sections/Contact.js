@@ -78,45 +78,7 @@ const Contact = ({
 								</div>
 								<p className="mb-32">LPATLDS</p>
 							</div>
-							<div
-								className={classNames(
-									'split-item-image center-content-mobile reveal-from-bottom',
-									imageFill && 'split-item-image-fill'
-								)}
-								data-reveal-container=".split-item"
-							>
-								<Input
-									type="text"
-									labelHidden
-									placeholder="Name"
-									className="mb-16"
-								/>
-
-								<Input
-									type="email"
-									labelHidden
-									placeholder="Email"
-									className="mb-16"
-								/>
-
-								<Input
-									type="text"
-									labelHidden
-									placeholder="Subject"
-									className="mb-16"
-								/>
-
-								<Input
-									type="textarea"
-									labelHidden
-									placeholder="Message"
-									className="mb-16"
-								/>
-
-								<Button tag="a" color="primary" wideMobile href="#">
-									Send
-								</Button>
-							</div>
+							
 						</div>
 					</div>
 				</div>
