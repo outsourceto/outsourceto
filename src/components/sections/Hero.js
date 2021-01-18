@@ -5,7 +5,7 @@ import ButtonGroup from '../elements/ButtonGroup';
 import Button from '../elements/Button';
 import Image from '../elements/Image';
 import Modal from '../elements/Modal';
-import AnchorLink from 'react-anchor-link-smooth-scroll';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
 	...SectionProps.types,
@@ -68,10 +68,16 @@ const Hero = ({
 							<div className="reveal-from-bottom" data-reveal-delay="600">
 								<ButtonGroup>
 									<Button tag="a" color="primary" wideMobile href="#">
-										<AnchorLink href="#pricing">Get started</AnchorLink>
+									
+										<Link to={'/pricing'} >
+											Get started
+										</Link>
 									</Button>
 									<Button tag="a" color="dark" wideMobile href="#">
-										<AnchorLink href="#contact">Contact Us</AnchorLink>
+											<Link to={'/contact'} >
+												Contact Us
+											</Link>	
+										
 									</Button>
 								</ButtonGroup>
 							</div>

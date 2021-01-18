@@ -3,6 +3,7 @@ import classNames from 'classnames';
 import { SectionTilesProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Button from '../elements/Button';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
 	...SectionTilesProps.types,
@@ -69,7 +70,7 @@ const Pricing = ({
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
-										Get started
+										<Link to={'/contact'} >Get started</Link>
 									</Button>
 								</div>
 							</div>
@@ -88,7 +89,7 @@ const Pricing = ({
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
-										Get started
+										<Link to={'/contact'} >Get started</Link>
 									</Button>
 								</div>
 							</div>
@@ -107,7 +108,7 @@ const Pricing = ({
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
-										Get started
+										<Link to={'/contact'} >Get started</Link>
 									</Button>
 								</div>
 							</div>
@@ -125,7 +126,7 @@ const Pricing = ({
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
-										Get started
+										<Link to={'/contact'} >Get started</Link>
 									</Button>
 								</div>
 							</div>
@@ -143,7 +144,7 @@ const Pricing = ({
 								</div>
 								<div className="testimonial-item-footer text-xs mt-32 mb-0 has-top-divider center-content">
 									<Button tag="a" color="primary" wideMobile href="#">
-										Get started
+										<Link to={'/contact'} >Get started</Link>
 									</Button>
 								</div>
 							</div>

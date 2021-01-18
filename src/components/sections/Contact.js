@@ -78,7 +78,7 @@ const Contact = ({
 								</div>
 								<p className="mb-32">LPATLDS</p>
 							</div>
-							
+						
 						</div>
 					</div>
 				</div>
