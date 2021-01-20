@@ -308,7 +308,7 @@ const FeaturesTiles = ({
 									</div>
 								</div>
 								<div className="features-tiles-item-content">
-									<h4 className="mt-0 mb-8">Customer Service - caht, email and calls</h4>
+									<h4 className="mt-0 mb-8">Customer Service - chat, email and calls</h4>
 									<p className="m-0 text-sm">
 									
 									</p>
