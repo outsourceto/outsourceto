@@ -70,9 +70,8 @@ const Contact = ({
 							>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
 									Email:
-								</div>
-								<p className="mb-0">TalentAcquire@outsourceto.us</p>
-								<p className="mb-32">Admin@outsourceto.us</p>
+								</div>								
+								<p className="mb-32"><a href="mailto:Contact@outsourceto.us">Contact@outsourceto.us</a></p>
 								<div className="text-xxs text-color-primary fw-600 tt-u mb-8">
 									Skype:
 								</div>

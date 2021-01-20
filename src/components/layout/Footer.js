@@ -4,6 +4,7 @@ import classNames from 'classnames';
 import Logo from './partials/Logo';
 import FooterNav from './partials/FooterNav';
 import FooterSocial from './partials/FooterSocial';
+import { Link } from 'react-router-dom';
 
 const propTypes = {
 	topOuterDivider: PropTypes.bool,
@@ -37,7 +38,7 @@ const Footer = ({ className, topOuterDivider, topDivider, ...props }) => {
 					</div>
 					<div className="footer-bottom space-between text-xxs">						
 						<div className="footer-copyright">
-							<a href="#">OutSourceTo</a> - All right reserved
+						<Link to="/">OutSourceTo.us</Link> - All right reserved
 						</div>
 					</div>
 				</div>
