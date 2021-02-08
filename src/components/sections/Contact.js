@@ -83,11 +83,45 @@ const Contact = ({
 							method="POST" 
 							data-netlify="true" 
 						   >
-						  <input type="hidden" name="form-name" value="contact" />
-							 <TextField id="standard-basic" label="name" name="name" />
-							 <TextField id="standard-basic" label="email" name="email" />
-							 <TextField multiline id="standard-basic" label="message" name="message" />
-							 <Button type="submit">Send</Button>
+						  <input type="hidden" name="form-name" value="contact" />						
+
+							 <Input
+							 type="text"
+							 labelHidden
+							 placeholder="Name"
+							 className="mb-16"
+							 name="name"
+						 />
+
+						 <Input
+							 type="email"
+							 labelHidden
+							 placeholder="Email"
+							 className="mb-16"
+							 name="email"
+						 />
+
+						 <Input
+							 type="text"
+							 labelHidden
+							 placeholder="Subject"
+							 className="mb-16"
+							 name="subject"
+						 />
+
+						 <Input
+							 type="textarea"
+							 labelHidden
+							 placeholder="Message"
+							 className="mb-16"
+							 name="message"
+						 />
+
+
+
+						 <Button tag="a" type="submit" color="primary" wideMobile href="#">
+						 Send
+					 </Button>
 							</form>
 						</div>
 					</div>
