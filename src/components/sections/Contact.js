@@ -122,7 +122,7 @@ const Contact = ({
 
 							<div data-netlify-recaptcha="true"></div>
 
-							<Button tag="a" color="primary" wideMobile href="#" type="submit">
+							<Button tag="a" color="primary" wideMobile type="submit">
 								Send
 							</Button>
 						</div>
