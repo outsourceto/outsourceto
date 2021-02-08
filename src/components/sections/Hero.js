@@ -83,20 +83,20 @@ const Hero = ({
 						data-reveal-value="20px"
 						data-reveal-delay="800"
 					>
-						<a
+						{/*<a
 							data-video="https://player.vimeo.com/video/174002812"
 							href="#0"
 							aria-controls="video-modal"
 							onClick={openModal}
-						>
+						>*/}
 							<Image
 								className="has-shadow"
-								src={require('./../../assets/images/video-placeholder.jpg')}
+								src={require('./../../assets/images/victo.png')}
 								alt="Hero"
-								width={896}
+								width={1200}
 								height={504}
 							/>
-						</a>
+						{/*</a>*/}
 					</div>
 					<Modal
 						id="video-modal"

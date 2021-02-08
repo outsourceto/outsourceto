@@ -77,7 +77,56 @@ const Contact = ({
 								</div>
 								<p className="mb-32">LPATLDS</p>
 							</div>
-						
+							<form name="contact" method="POST" data-netlify="true">
+							<div
+							className={classNames(
+								'split-item-image center-content-mobile reveal-from-bottom',
+								imageFill && 'split-item-image-fill'
+							)}
+							data-reveal-container=".split-item"
+						>
+							<Input
+								type="text"
+								labelHidden
+								placeholder="Name"
+								className="mb-16"
+							/>
+
+							<Input
+								type="email"
+								labelHidden
+								placeholder="Email"
+								className="mb-16"
+							/>
+
+							<Input
+								type="text"
+								labelHidden
+								placeholder="Telephone"
+								className="mb-16"
+							/>
+
+							<Input
+								type="text"
+								labelHidden
+								placeholder="Subject"
+								className="mb-16"
+							/>
+
+							<Input
+								type="textarea"
+								labelHidden
+								placeholder="Message"
+								className="mb-16"
+							/>
+
+							<div data-netlify-recaptcha="true"></div>
+
+							<Button tag="a" color="primary" wideMobile href="#" type="submit">
+								Send
+							</Button>
+						</div>
+						  </form>
 						</div>
 					</div>
 				</div>
