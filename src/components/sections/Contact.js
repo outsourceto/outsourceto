@@ -99,7 +99,7 @@ const Contact = ({
 							<form 
 							name="contact" 
 							method="POST" 
-							action="/contact/?success=true"
+							action="/"
 							data-netlify="true" 
 						   >
 						  <input type="hidden" name="form-name" value="contact" />						
