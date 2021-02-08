@@ -136,7 +136,7 @@ const Contact = ({
 											className="mb-16"
 										/>
 										
-										<Button tag="a" color="primary" wideMobile>
+											<Button tag="a" color="primary" wideMobile>
 												Send
 											</Button>
 										</div>
