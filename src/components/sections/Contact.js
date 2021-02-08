@@ -4,6 +4,7 @@ import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
 import Input from '../elements/Input';
 import Button from '../elements/Button';
+import NetlifyForm from 'react-netlify-form'
 
 const propTypes = {
 	...SectionSplitProps.types,
@@ -77,56 +78,72 @@ const Contact = ({
 								</div>
 								<p className="mb-32">LPATLDS</p>
 							</div>
-							<form name="contact" method="POST" data-netlify="true">
-							<div
-							className={classNames(
-								'split-item-image center-content-mobile reveal-from-bottom',
-								imageFill && 'split-item-image-fill'
-							)}
-							data-reveal-container=".split-item"
-						>
-							<Input
-								type="text"
-								labelHidden
-								placeholder="Name"
-								className="mb-16"
-							/>
+							<NetlifyForm
+								name='Form With Recaptcha'
+								recaptcha={{
+									sitekey: 'my_recaptcha_site_key',
+									size: 'normal'
+								}}
+								>
+								{({ loading, error, recaptchaError, success, recaptcha }) => (
+									<div>
+									{loading &&
+										<div>Loading...</div>
+									}
+									{error &&
+										<div>Your information was not sent. Please try again later.</div>
+									}
+									{recaptchaError &&
+										<div>Recaptcha did not match. Please make sure the box is checked.</div>
+									}
+									{success &&
+										<div>Thank you for contacting us!</div>
+									}
+									{!loading && !success &&										
+										<div
+								className={classNames(
+									'split-item-image center-content-mobile reveal-from-bottom',
+									imageFill && 'split-item-image-fill'
+								)}
+								data-reveal-container=".split-item"
+							>									
+											<Input
+											type="text"
+											labelHidden
+											placeholder="Name"
+											className="mb-16"
+										/>
 
-							<Input
-								type="email"
-								labelHidden
-								placeholder="Email"
-								className="mb-16"
-							/>
+										
+											<Input
+											type="email"
+											labelHidden
+											placeholder="Email"
+											className="mb-16"
+										/>
 
-							<Input
-								type="text"
-								labelHidden
-								placeholder="Telephone"
-								className="mb-16"
-							/>
+										<Input
+											type="text"
+											labelHidden
+											placeholder="Subject"
+											className="mb-16"
+										/>
 
-							<Input
-								type="text"
-								labelHidden
-								placeholder="Subject"
-								className="mb-16"
-							/>
-
-							<Input
-								type="textarea"
-								labelHidden
-								placeholder="Message"
-								className="mb-16"
-							/>
-
-							<div data-netlify-recaptcha="true"></div>
-
-							<Button tag="a" color="primary" wideMobile type="submit">
-								Send
-							</Button>
-						</div>
-						  </form>
+										<Input
+											type="textarea"
+											labelHidden
+											placeholder="Message"
+											className="mb-16"
+										/>
+										
+										<Button tag="a" color="primary" wideMobile>
+												Send
+											</Button>
+										</div>
+									}
+									</div>
+								)}
+								</NetlifyForm>
 						</div>
 					</div>
 				</div>
