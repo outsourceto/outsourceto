@@ -77,7 +77,7 @@ const Contact = ({
 								</div>
 								<p className="mb-32">LPATLDS</p>
 							</div>
-							<form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true">
+							<form name="contact" method="POST" data-netlify="true">
 							<div
 							className={classNames(
 								'split-item-image center-content-mobile reveal-from-bottom',
