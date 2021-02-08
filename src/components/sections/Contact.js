@@ -119,7 +119,7 @@ const Contact = ({
 
 
 
-						 <Button tag="a" type="submit" color="primary" wideMobile href="#">
+						 <Button type="submit" color="primary" wideMobile >
 						 Send
 					 </Button>
 							</form>
