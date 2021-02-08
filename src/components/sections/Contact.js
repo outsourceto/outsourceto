@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{ useState,useEffect } from 'react';
 import classNames from 'classnames';
 import { SectionSplitProps } from '../../utils/SectionProps';
 import SectionHeader from './partials/SectionHeader';
@@ -54,8 +54,19 @@ const Contact = ({
 		paragraph: '',
 	};
 
+	 const [success, setSuccess] = useState(false);
+
+  useEffect(() => {
+    if ( window.location.search.includes('success=true') ) {
+      setSuccess(true);
+    }
+  }, []);
+
 	return (
 		<section {...props} className={outerClasses}>
+		{success && (
+			<p style={{ color: "green" }}>Thanks for your message! </p>
+		  )}
 			<div className="container">
 				<div className={innerClasses}>
 					<SectionHeader
@@ -78,6 +89,13 @@ const Contact = ({
 								</div>
 								<p className="mb-32">LPATLDS</p>
 							</div>
+							<div
+								className={classNames(
+									'split-item-image center-content-mobile reveal-from-bottom',
+									imageFill && 'split-item-image-fill'
+								)}
+								data-reveal-container=".split-item"
+							>
 							<form 
 							name="contact" 
 							method="POST" 
@@ -116,13 +134,11 @@ const Contact = ({
 							 className="mb-16"
 							 name="message"
 						 />
-
-
-
 						 <Button type="submit" color="primary" wideMobile >
 						 Send
 					 </Button>
 							</form>
+							</div>
 						</div>
 					</div>
 				</div>
