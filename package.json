@@ -12,7 +12,7 @@
 		"react-ga": "^2.7.0",
 		"react-netlify-form": "^2.1.5",
 		"react-router-dom": "^5.1.2",
-		"react-scripts": "^3.4.1",
+		"react-scripts": "^5.0.1",
 		"react-scroll-up-button": "^1.6.4"
 	},
 	"repository": {
